@@ -1,0 +1,23 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+body{
+    background: url("../images/background.jpg");
+}
+div{
+    padding: 35px;
+    width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+}
+.for-span-code{
+    background-color: lightgray;
+}
+code{
+    color: brown;
+}

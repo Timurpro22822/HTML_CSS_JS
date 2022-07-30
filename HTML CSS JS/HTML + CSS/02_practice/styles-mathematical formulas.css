@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+body{
+    margin: auto;
+    max-width: 80%;
+}
+h4 {
+    font-family: sans-serif;
+}
+mark{
+    background-color: lightpink;
+    padding: 4px;
+}
+.for-formula{
+    text-align: center;
+    font-size: 20px;
+}
+.for-span{
+    color: rgb(179, 6, 6);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}

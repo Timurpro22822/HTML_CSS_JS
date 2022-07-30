@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+body{
+    margin: auto;
+    max-width: 80%;
+}
+.for-span{
+    font-weight: bold;
+}
+.for-span-code{
+    background-color: lightgray;
+}
+code{
+    color: brown;
+}
+strong{
+    font-size: 17px;
+    font-family: sans-serif;
+}

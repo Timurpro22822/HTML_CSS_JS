@@ -1,0 +1,18 @@
+ul{
+    list-style-image: url(../resources/arrow_16.png);
+}
+.winter-list{
+    list-style-image: url(../resources/winter_16.png);
+}
+.spring-list{
+    list-style-image: url(../resources/spring_16.png);
+}
+.summer-list{
+    list-style-image: url(../resources/summer_16.png);
+}
+.autumn-list{
+    list-style-image: url(../resources/autumn_16.png);
+}
+html{
+    font-family: sans-serif;
+}

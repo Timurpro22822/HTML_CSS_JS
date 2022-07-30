@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+body{
+    margin: auto;
+    max-width: 80%;
+}
+#q-id{
+    font-style: italic;
+    text-align: right;
+}
+.font-size-p{
+    font-size: small;
+    text-align: right;
+}
+.font-opacity_1{
+    opacity: 100%;
+}
+.font-opacity_2{
+    opacity: 90%;
+}
+.font-opacity_3{
+    opacity: 80%;
+}
+.font-opacity_4{
+    opacity: 60%;
+}
+.font-opacity_5{
+    opacity: 40%;
+}
+.font-opacity_6{
+    opacity: 30%;
+}
+.font-opacity_7{
+    opacity: 20%;
+}
+p:first-letter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}

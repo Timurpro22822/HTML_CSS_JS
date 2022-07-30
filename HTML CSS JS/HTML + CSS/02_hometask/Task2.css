@@ -1,0 +1,19 @@
+body{
+    margin: auto;
+    max-width: 90%;
+}
+h3{
+    font-family: sans-serif;
+}
+.for-p{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.for-p span{
+    background-color: lightgray;
+    padding: 7px;
+}
+.for-span{
+    color: brown;
+}

@@ -1,0 +1,14 @@
+.font-size-p{
+font-size: small;
+}
+body{
+    margin: auto;
+    max-width: 80%;
+}
+sup{
+    color: blue;
+    font-weight: bold;
+}
+h1{
+    font-family: sans-serif;
+}
