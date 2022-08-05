@@ -1,0 +1,47 @@
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+ul{
+    padding: 0px;
+}
+/* Парні рядкі */
+ul li:nth-child(odd) {
+    background: rgb(131, 163, 173);
+}
+/* Не парні */
+ul li:nth-child(even) {
+    background: lightblue;
+}
+ul li.checked {
+    background: lightgray;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    content: '\2714';
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+ul li.uncheked::before{
+    content: '\2716';
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+.close {
+    position: absolute;
+    padding-left: 15px;
+    color: brown;
+    font-weight: bold;
+}
+body{
+    margin: auto;
+    max-width: 96%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
