@@ -79,3 +79,37 @@
     // }
 ////#endregion
 
+////#region Task 3.1
+    // var a = Number(prompt("Enter start of diapason: "));
+    // var n = Number(prompt("Enter end of diapason: "));
+    // var sum = 0;
+    // while(a <= n) {
+    //     sum+=a;
+    //     a++;
+    // }
+    // alert(sum);
+////#endregion12
+
+////#region Task 3.2
+    // let number = +prompt("Enter number");
+    // function countDigits(n) {
+    //     for(var i = 0; n > 1; i++) {
+    //        n /= 10;
+    //     }
+    //     return i;
+    //  }
+    // prompt('В переменной num %s знаков', countDigits(number));
+////#endregion
+
+////#region Task 3.3
+
+////#endregion
+
+////#region Task 3.4
+    // const days = ['Понеділок', 'Вівторок', 'Середа', 'Четвер', 'Пятница', 'Субота', 'Неділя'];
+    // let currDay = 0;
+
+    // while (confirm(`${days[currDay]}.  Хочете побачити наступний день?`)) {
+    //   currDay = (currDay + 1) % days.length;
+    // }
+////#endregion
