@@ -102,7 +102,36 @@
 ////#endregion
 
 ////#region Task 3.3
-
+    let number;
+    let counterNegative = 0;
+    let counterZero = 0;
+    let counterPositive = 0;
+    let numberParne = 0;
+    let numberNeParne = 0;
+    for(let i = 0; i < 10; i++) {
+        number = +prompt("Enter 10 numbers: ");
+        console.log(`Numbers: %s`, number)
+        if(number % 2 == 0) {
+            numberParne++;
+        }
+        else if(number % 2 != 0) {
+            numberNeParne++;
+        }
+        if(number < 0) {
+            counterNegative++;
+        }
+        else if(number == 0) {
+            counterZero++;
+        }
+        else if(number > 0) {
+            counterPositive++;
+        }
+    }
+    console.log(`Кол-во парних: %s`, numberParne)
+    console.log(`Кол-во не парних: %s`, numberNeParne)
+    console.log(`Кол-во негативних: %s`, counterNegative);
+    console.log(`Кол-во позитивних: %s`, counterPositive);
+    console.log(`Кол-во нулів: %s`, counterZero);
 ////#endregion
 
 ////#region Task 3.4
