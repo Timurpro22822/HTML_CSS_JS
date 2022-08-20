@@ -9,7 +9,11 @@ ul li {
 }
 ul{
     padding: 0px;
+    /* list-style: square inside; */
 }
+/* li::marker{
+    content: url("../resources/unchecked_16.png");
+} */
 /* Парні рядкі */
 ul li:nth-child(odd) {
     background: rgb(131, 163, 173);
