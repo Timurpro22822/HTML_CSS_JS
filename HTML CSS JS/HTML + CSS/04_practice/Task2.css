@@ -36,3 +36,9 @@ ul {
 ul li{
     font-size: 14px;
 }
+.for-underline {
+    text-decoration: underline;
+}
+nav a:hover {
+    text-decoration: underline;
+}
