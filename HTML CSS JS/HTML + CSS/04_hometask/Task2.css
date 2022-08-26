@@ -1,0 +1,39 @@
+nav {
+    background-color: #808080;
+    display: inline-block;
+}
+nav li:hover {
+    background-color: #5E5E5E;
+}
+.Test {
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 36px 90px 36px 80px;
+}
+.Test-edit {
+    background-image: url(../resources/edit.png);
+}
+.Test-favorites {
+    background-image: url(../resources/favorites.png);
+}
+.Test-history {
+    background-image: url(../resources/history.png);
+}
+.Test-security {
+    background-image: url(../resources/security.png);
+}
+.Test-settings {
+    background-image: url(../resources/settings.png);
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body { 
+    color: white;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
