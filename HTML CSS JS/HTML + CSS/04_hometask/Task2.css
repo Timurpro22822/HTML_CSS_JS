@@ -4,6 +4,7 @@ nav {
 }
 nav li:hover {
     background-color: #5E5E5E;
+    cursor: pointer;
 }
 .Test {
     background-size: 65px;
