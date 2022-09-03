@@ -1,0 +1,53 @@
+nav {
+    /* width: 244px; */
+    background-color: #808080;
+    display: inline-block;
+    height: 950px;
+    position: fixed;
+}
+nav li:hover {
+    background-color: #5E5E5E;
+    cursor: pointer;
+    transition: all .3s;
+}
+.edit {
+    background-image: url(../resources/edit.png);
+}
+.favorites {
+    background-image: url(../resources/favorites.png);
+}
+.history {
+    background-image: url(../resources/history.png);
+}
+.security {
+    background-image: url(../resources/security.png);
+}
+.settings {
+    background-image: url(../resources/settings.png);
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+ul li {
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 36px 90px 36px 80px;
+}
+body { 
+    margin: 0px;
+    color: white;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-span{
+    padding: 30px 20px;
+    font-size: 17px;
+}
+h1, p {
+    color: black;
+    margin: auto;
+    margin-left: 300px;
+    text-transform: uppercase;
+}

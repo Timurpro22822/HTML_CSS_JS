@@ -1,0 +1,18 @@
+thead { 
+    background-color: #ADD8E6;
+}
+table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr td:first-child {
+    background-color: #ADD8E6;
+}
+tr td {
+    padding: 15px;
+}
+tr th {
+    padding: 12px;
+}
