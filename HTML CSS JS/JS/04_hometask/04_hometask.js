@@ -23,10 +23,15 @@
 ////#endregion
 
 ////#region Task 3
-// Not 100%(99.5%)
-String.prototype.countWrd = function() {
-    return this.split(/\s+\b/).length;
-}
-"Hello World ! ! !".countWrd();
+// String.prototype.countWrd = function(str) {
+//     return this.split(/\s+\b/).length;
+// }
+// alert("Hello World".countWrd());
 
+////#region Task 5
+function checkPalindrom (str) {
+    return str == str.split('').reverse().join('');
+  }
+alert(checkPalindrom("Hi")) // false
+////#endregion
 ////#endregion
