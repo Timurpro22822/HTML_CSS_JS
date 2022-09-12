@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0 50px;
+    background-color: #646464;
+    color: white;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.title h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 100;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+    border: 4px solid white;
+    box-shadow: 0px 0px 2px 2px white;
+}
+main h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+.about_block {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+.about_block div {
+    flex-basis: 33.33%;
+}
+.about_block div p {
+    font-weight: 100;
+    font-size: 12px;
+}
+.about_block div .bold {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0;
+}
+ul {
+    list-style-type: none;
+}
+li::before {
+    content: "- ";
+}
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 2%;
+}
+.first_row {
+    flex-basis: 32%;
+    margin-bottom: 10px;
+}
+.second_row {
+    flex-basis: 49%;
+    margin-bottom: 10px;
+}
+.third_row {
+    flex-basis: 100%;
+}
+.gallery>div {
+    position: relative;
+}
+.gallery>div:hover .hover_text {
+    visibility: visible;
+    opacity: 1;
+}
+.hover_text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s;
+}
+.hover_text h3 {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.hover_text p{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.bottom_gallery>div:hover .hover_text_bottom {
+    visibility: visible;
+    opacity: 1;
+}
+.bottom_gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.bottom_gallery img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.bottom_gallery>div {
+    position: relative;
+}
+footer h3 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-size: 10px;
+    opacity: 0.5;
+}
+.hover_text_bottom {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s;
+}
+.hover_text_bottom p {
+    margin-top: 30%;
+    margin-left: 45%;
+}
