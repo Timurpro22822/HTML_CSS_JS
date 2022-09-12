@@ -1,7 +1,6 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     background-color: #F5F5F5;
-    display: flex;
 }
 .borders {
     width: 200px;
@@ -9,9 +8,9 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 15px 3px gray;
-    display: flex;
+    display: inline-block;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 .cost {
     font-size: 37px;
@@ -33,8 +32,8 @@ body {
 .basic-top, 
 .basic-center, 
 .basic-bottom {
-width: 100%;
-text-align: center;
+    width: 100%;
+    text-align: center;
     margin-bottom: 3px;
     padding: 5px 0;
     /* background-color: red; */
