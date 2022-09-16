@@ -9,10 +9,29 @@ table {
 }
 tr td:first-child {
     background-color: #ADD8E6;
+    font-weight: bold;
+    padding: 1%;
+    position: sticky;
+    top: 15px;
+    left: 0;
+    width: 150px;
+}
+tr td {
+    text-align: center;
 }
 tr td {
     padding: 15px;
 }
 tr th {
     padding: 12px;
+}
+thead tr {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.scroll {
+    width: 50%;
+    height: 400px;
+    overflow: scroll;
 }
