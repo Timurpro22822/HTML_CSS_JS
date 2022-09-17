@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    margin: auto;
+    max-width: 95%;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4C996B;
+}
+.navbar ul li a {
+    color: white;
+}
