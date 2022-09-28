@@ -17,10 +17,12 @@ form {
     gap: 10px;
 }
 label {
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    
 }
 form>p {
     margin-top: 0;
@@ -29,7 +31,7 @@ form>p {
 }
 form label input {
     height: 30px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 form label::content {
     font-size: 15px;
@@ -41,6 +43,30 @@ form label input {
 hr {
     width: 100%;
 }
+#message-label>input,
+#msgsub-label>input,
+#email-label>input {
+    grid-column: span 3;
+}
 #message-label>input {
     height: 100px;
+}
+#last-label input{
+    grid-column-start: 5;
+    grid-column-end: 2;
+    border: 3px solid white;
+    color: white;
+    /* background-color: red; */
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    /* border: none; */
+    cursor:pointer;
+    overflow: hidden;        
+}
+label input::placeholder {
+    padding-left: 3px;
+    color: lightgray;
+}
+#msgsub-label input::placeholder {
+    color: black;
 }

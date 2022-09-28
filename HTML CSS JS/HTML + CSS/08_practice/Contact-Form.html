@@ -11,26 +11,28 @@
     <form action="#">
         <h2>Contact form</h2>
         <p>Please fill in your information and we'll be sending you order</p>
-        <label>Your name 
+        <label id="name-form">Your name 
             <input type="text" placeholder="first name">
             <input type="text" placeholder="last name">
         </label>
-        <label>Your email
+        <label id="email-label">Your email
             <input type="email" placeholder="your_mail@mail.com">
         </label>
         <label>Phone*
-            <input type="tel">
-            <input type="tel">
-            <input type="tel">
+            <input type="tel" placeholder="000">
+            <input type="tel" placeholder="000">
+            <input type="tel" placeholder="0000">
         </label>
-        <label>Message subject*
-            <input type="text">
+        <label id="msgsub-label">Message subject*
+            <input type="text" placeholder="Other">
         </label>
         <label id="message-label">Message*
             <input type="text">
         </label>
         <hr>
-        <button><a>Submit Form</a></button>
+        <label id="last-label">
+            <input type="button" value="SUBMIT FORM">
+        </label>
     </form>
 </body>
 </html>
