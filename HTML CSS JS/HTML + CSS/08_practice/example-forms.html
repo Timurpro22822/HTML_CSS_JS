@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 70%;
+            margin: 10px auto;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        /* Form layout */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            gap: 6px
+        }
+
+        label input {
+            flex-grow: 1;
+        }
+
+        label input[type="checkbox"] {
+            flex-grow: 0;
+        }
+
+        .delivery-block label {
+            display: inline;
+        }
+
+        /* Forms & inputs styling */
+        form.styled {
+            margin-bottom: 10px;
+            box-shadow: 5px 5px 15px;
+        }
+
+        .styled input {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .styled input:focus {
+            outline: none;
+            background-color: darkblue;
+        }
+
+        .styled input::placeholder {
+            color: white;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Working with Forms</h1>
+
+    <h2>Styled Form</h2>
+    <form class="styled" action="#">
+        <input type="text" placeholder="Enter your email">
+        <button>Click me</button>
+    </form>
+
+    <h2>Registration Form</h2>
+    <form action="">
+        <label for="name-input">Name:</label>
+        <input id="name-input" type="text">
+
+        <label>Email:
+            <input type="email" placeholder="Enter your email">
+        </label>
+        <label>Password:
+            <input type="password">
+        </label>
+        <label>URL:
+            <input type="url">
+        </label>
+        <label>Phone:
+            <input type="tel">
+        </label>
+
+        <input type="date">
+        <input type="month">
+        <input type="week">
+        <input type="time">
+        <input type="color">
+        <input type="file">
+        <input type="number" min="10" max="50" step="0.5">
+
+        <label>Is important?
+            <input type="checkbox">
+        </label>
+
+        <div class="delivery-block">
+            <h4>Delivery Type</h4>
+            <label>Ecomon
+                <input type="radio" name="delivery-type">
+            </label>
+            <label>Standart
+                <input type="radio" name="delivery-type">
+            </label>
+            <label>Fast
+                <input type="radio" name="delivery-type">
+            </label>
+        </div>
+
+        <input type="range">
+        <input type="button" value="Click Me">
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

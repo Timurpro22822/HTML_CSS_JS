@@ -1,0 +1,46 @@
+body {
+    background-image: url(../resources/landscape.jpg);
+    background-size: cover;
+    max-width: 55%;
+    margin: 30px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .main-div {
+    background-color: red;
+} */
+form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px -4px #000000;
+    padding: 30px;
+    gap: 10px;
+}
+label {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+form>p {
+    margin-top: 0;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+form label input {
+    height: 30px;
+    flex-grow: 1;
+}
+form label::content {
+    font-size: 15px;
+    margin-right: 25px;
+}
+form label input {
+    vertical-align: middle;
+}
+hr {
+    width: 100%;
+}
+#message-label>input {
+    height: 100px;
+}
