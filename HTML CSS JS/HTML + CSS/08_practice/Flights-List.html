@@ -17,15 +17,58 @@
         </div>
     </header>
     <div class="flight-block">
-        <label>
-            <input type="radio" name="flight-type">
-            <span>One Way</span>
-        </label>
-        <label>
-            <input type="radio" name="flight-type">
-            <span>Round Trip</span>
-        </label>
+        <div class="radio-type">
+            <label>
+                <input type="radio" name="flight-type">
+                <span>One Way</span>
+            </label>
+            <label>
+                <input type="radio" name="flight-type">
+                <span>Round Trip</span>
+            </label>
+        </div>
+        <form class="type-form">
+            <input type="text" id="from-input" placeholder="From">
+            <input type="text" id="to-input" placeholder="To">
+            <input type="text" id="depart-input" placeholder="Depart Date">
+            <input type="text" id="return-input" placeholder="Return Date">
+            <!-- <input type="text" id="class-type-input" placeholder="Economy Class"> -->
+            <select name="Economy Class" id="class-type">
+                <option>Economy Class</option>
+                <option>Standard Class</option>
+                <option>Business Class</option>
+            </select>
+            <input type="button" id="search-button" value="Search">
+        </form>
+        <div class="main-div">
+            <form class="form-filter">
+                <h3>Filter</h3>
+                <p>No. of Stops</p>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label>Non Stop</label>
+                    <br>
+                    <input type="checkbox">
+                    <label>1 Stop</label>
+                    <br>
+                    <input type="checkbox">
+                    <label>2+ Stops</label>
+                </div>
+                
+            </form>
+            <form class="dehli_sydney">
+                <div class="dehli-first-div">
+                    <h3>Dehli to Sydney</h3>
+                </div>
+                <!-- <div>
+                    <span>Airlines</span>
+                    <span>Departure</span>
+                    <span>Duration</span>
+                    <span>Arrival</span>
+                    <span>Price</span>
+                </div> -->
+            </form>
+        </div>
     </div>
-    
 </body>
 </html>
