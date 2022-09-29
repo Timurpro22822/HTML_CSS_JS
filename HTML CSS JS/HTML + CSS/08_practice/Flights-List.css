@@ -52,6 +52,7 @@ select {
     border: none;
     background-color: #0F4371;
     color: white;
+    cursor: pointer;
 }
 #depart-input,
 #return-input {
